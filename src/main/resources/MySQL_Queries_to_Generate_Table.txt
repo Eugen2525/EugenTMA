@@ -1,0 +1,18 @@
+CREATE TABLE `tasks` (
+  `id` mediumint(8) unsigned NOT NULL auto_increment,
+  `name` TEXT default NULL,
+  `day` mediumint default NULL,
+  `completed` mediumint default NULL,
+  PRIMARY KEY (`id`)
+) AUTO_INCREMENT=1;
+
+INSERT INTO `tasks` (`name`,`day`,`completed`) VALUES ("eu tellus eu augue",79,1),("lectus",49,0),("In ornare sagittis",92,1),("fringilla purus mauris a",46,1),("risus. Quisque libero",99,0),("Donec",41,1),("felis",85,0),("nascetur",18,0),("vitae nibh. Donec",65,1),("a, magna. Lorem ipsum",5,1);
+INSERT INTO `tasks` (`name`,`day`,`completed`) VALUES ("metus.",37,1),("Nam porttitor",13,1),("pellentesque eget, dictum",91,1),("nascetur ridiculus mus.",55,1),("elit elit fermentum risus,",67,0),("faucibus lectus, a",25,0),("eu",23,1),("eu erat semper rutrum.",91,0),("nonummy ipsum non",62,1),("Maecenas libero est, congue",76,0);
+INSERT INTO `tasks` (`name`,`day`,`completed`) VALUES ("non dui",59,0),("enim, sit",17,1),("nascetur",5,1),("vel, vulputate eu, odio.",21,0),("sit amet diam eu",69,0),("ipsum. Phasellus vitae",8,1),("Vivamus",9,1),("quam.",32,1),("pharetra",6,1),("sagittis semper. Nam tempor",80,0);
+INSERT INTO `tasks` (`name`,`day`,`completed`) VALUES ("consectetuer adipiscing",29,0),("sed leo. Cras",8,0),("eget odio. Aliquam",30,1),("urna. Vivamus molestie dapibus",69,1),("diam eu dolor",27,1),("massa. Mauris",70,0),("Quisque ornare tortor",86,1),("vel, convallis in, cursus",31,0),("orci tincidunt adipiscing. Mauris",61,0),("eget tincidunt",1,0);
+INSERT INTO `tasks` (`name`,`day`,`completed`) VALUES ("habitant",41,0),("velit. Aliquam",96,1),("tempor erat neque",13,0),("lorem fringilla ornare placerat,",26,0),("sed pede.",72,1),("eu, odio.",16,0),("ipsum ac",88,1),("mauris a nunc. In",68,1),("placerat, augue. Sed molestie.",90,0),("convallis, ante",65,0);
+INSERT INTO `tasks` (`name`,`day`,`completed`) VALUES ("et malesuada fames",80,1),("rutrum. Fusce dolor quam,",13,1),("purus, accumsan",67,1),("Nullam",24,0),("Duis",35,0),("Donec est mauris,",48,0),("a,",100,1),("eget",2,0),("in, dolor. Fusce feugiat.",80,0),("Quisque varius.",68,0);
+INSERT INTO `tasks` (`name`,`day`,`completed`) VALUES ("tristique neque venenatis lacus.",14,1),("sapien. Nunc pulvinar arcu",8,1),("arcu imperdiet ullamcorper.",35,0),("metus urna",38,0),("fringilla purus mauris",19,1),("urna, nec luctus felis",93,1),("dis parturient",19,0),("dui. Cum",4,0),("Proin velit.",70,0),("eget, ipsum. Donec",24,1);
+INSERT INTO `tasks` (`name`,`day`,`completed`) VALUES ("lectus, a",10,0),("pretium aliquet, metus urna",66,1),("faucibus orci luctus",24,0),("Pellentesque habitant morbi",17,1),("dolor. Donec",2,0),("sed, sapien. Nunc pulvinar",28,0),("eu, odio.",45,1),("nisi. Aenean",68,1),("sed",47,0),("auctor. Mauris",98,1);
+INSERT INTO `tasks` (`name`,`day`,`completed`) VALUES ("sed, est.",2,1),("sed dui.",24,0),("mi,",60,1),("a, aliquet",47,1),("odio tristique pharetra.",69,1),("et malesuada fames",77,0),("non dui nec urna",48,0),("vitae, posuere",67,1),("tempus,",5,1),("nisi",62,1);
+INSERT INTO `tasks` (`name`,`day`,`completed`) VALUES ("ipsum.",96,1),("ac",82,1),("cubilia",14,1),("Curae; Donec tincidunt.",97,0),("sem, consequat nec, mollis",24,0),("rutrum",60,0),("mauris blandit mattis.",91,0),("in",46,0),("vel",3,0),("lorem, eget mollis",27,1);
